@@ -40,3 +40,5 @@ const limpiarFormulario = () => {
   document.getElementById("edad").value = "";
   document.getElementById("comentarios").value = "";
   document.getElementById("preview").innerHTML = ""; // Limpiar la vista previa}
+
+  Por lo que entiendo se selecciona el id que se quiere limpiar, .value da un nuevo valor y al asignarle un valor vacio tengo entendido que se limpia.
